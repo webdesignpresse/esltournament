@@ -1,0 +1,14 @@
+.container {
+    background: #ccc;
+    padding: 20px;
+}
+
+.header {
+    padding: 10px;
+    background: #fff;
+}
+
+.match {
+    padding: 10px;
+    background: #fff;
+}
