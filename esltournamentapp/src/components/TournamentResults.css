@@ -1,14 +1,86 @@
 .container {
-    background: #ccc;
     padding: 20px;
+    min-width: 500px;
+    background: #EBECEE;
 }
 
 .header {
-    padding: 10px;
+    padding: 20px;
     background: #fff;
+    margin-bottom:20px;
+    border-top: 6px solid #28B662;
+    border-radius: 2px;
+}
+
+.header h2 {
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.header h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    margin: 0px;
+}
+
+.sort {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #FFFFFF;
+}
+
+.sort select {
+    background: #FFFFFF;
+    border: 1px solid #BDC3C7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 5px 3px;
 }
 
 .match {
     padding: 10px;
     background: #fff;
+    border-bottom: 1px solid #EBECEE;
+}
+
+.match .time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #818F8F;
+}
+
+.winner, .loser {
+    background: #fff;
+    border-radius: 2px;
+}
+
+.winner {
+    border-left: 3px solid #28B662;
+}
+
+.loser {
+    border-left: 3px solid #E43726;
+}
+
+.winner h4, .loser h4 {
+    padding-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.winner span, .loser span {
+    float: right;
 }

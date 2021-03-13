@@ -4,7 +4,9 @@ import TournamentResults from './components/TournamentResults';
 
 function App() {
   return (
-    <TournamentResults/>
+    <div className="flexContainer">
+      <TournamentResults tournamentID={177161}/>
+    </div>
   );
 }
 
